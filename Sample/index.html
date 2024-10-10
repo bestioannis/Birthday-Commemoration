@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5歲生日快樂</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- 背景音樂 -->
+    <audio id="bgm" autoplay loop>
+        <source src="birthday-music.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- 網站主體 -->
+    <div class="container">
+        <h1 class="title">5歲生日快樂!</h1>
+        <img src="birthday-cake.png" alt="生日蛋糕" class="cake-img">
+        
+        <p class="message">祝你有一個快樂的童年，願所有夢想成真！</p>
+        
+        <button class="play-btn" onclick="playPauseBGM()">暫停/播放音樂</button>
+
+        <div class="gallery">
+            <img src="image1.jpg" alt="生日照片1" class="photo">
+            <img src="image2.jpg" alt="生日照片2" class="photo">
+            <img src="image3.jpg" alt="生日照片3" class="photo">
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
